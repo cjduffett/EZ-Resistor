@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5206784187B2E1500672BE7 /* EZR_Color1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5206783187B2E1500672BE7 /* EZR_Color1TableViewController.m */; };
+		F5206787187B2E2400672BE7 /* EZR_Color2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5206786187B2E2400672BE7 /* EZR_Color2TableViewController.m */; };
+		F520678A187B2E2F00672BE7 /* EZR_Color3TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5206789187B2E2F00672BE7 /* EZR_Color3TableViewController.m */; };
+		F520678D187B2E3B00672BE7 /* EZR_Color4TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F520678C187B2E3B00672BE7 /* EZR_Color4TableViewController.m */; };
+		F5206795187B3A3E00672BE7 /* EZR_ColorBandCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5206794187B3A3E00672BE7 /* EZR_ColorBandCell.m */; };
+		F5206798187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5206797187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.m */; };
+		F520679B187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F520679A187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.m */; };
+		F537BF9418710FE100ADD1B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F537BF9318710FE100ADD1B7 /* Foundation.framework */; };
+		F537BF9618710FE100ADD1B7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F537BF9518710FE100ADD1B7 /* CoreGraphics.framework */; };
+		F537BF9818710FE100ADD1B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F537BF9718710FE100ADD1B7 /* UIKit.framework */; };
+		F537BF9E18710FE100ADD1B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F537BF9C18710FE100ADD1B7 /* InfoPlist.strings */; };
+		F537BFA018710FE100ADD1B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F537BF9F18710FE100ADD1B7 /* main.m */; };
+		F537BFA418710FE100ADD1B7 /* EZR_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F537BFA318710FE100ADD1B7 /* EZR_AppDelegate.m */; };
+		F537BFB318710FE100ADD1B7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F537BFB218710FE100ADD1B7 /* XCTest.framework */; };
+		F537BFB418710FE100ADD1B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F537BF9318710FE100ADD1B7 /* Foundation.framework */; };
+		F537BFB518710FE100ADD1B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F537BF9718710FE100ADD1B7 /* UIKit.framework */; };
+		F537BFBD18710FE100ADD1B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F537BFBB18710FE100ADD1B7 /* InfoPlist.strings */; };
+		F537BFBF18710FE100ADD1B7 /* EZ_ResistorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F537BFBE18710FE100ADD1B7 /* EZ_ResistorTests.m */; };
+		F537BFCB1871133A00ADD1B7 /* EZR_MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F537BFC91871133A00ADD1B7 /* EZR_MainViewController.m */; };
+		F537BFCF18711A4800ADD1B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F537BFCE18711A4800ADD1B7 /* Images.xcassets */; };
+		F537BFD918711AB500ADD1B7 /* pad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD118711AB500ADD1B7 /* pad_icon.png */; };
+		F537BFDA18711AB500ADD1B7 /* pad_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD218711AB500ADD1B7 /* pad_icon@2x.png */; };
+		F537BFDB18711AB500ADD1B7 /* phone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD318711AB500ADD1B7 /* phone_icon.png */; };
+		F537BFDC18711AB500ADD1B7 /* phone_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD418711AB500ADD1B7 /* phone_icon@2x.png */; };
+		F537BFDD18711AB500ADD1B7 /* settings_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD518711AB500ADD1B7 /* settings_icon.png */; };
+		F537BFDE18711AB500ADD1B7 /* settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD618711AB500ADD1B7 /* settings_icon@2x.png */; };
+		F537BFDF18711AB500ADD1B7 /* spotlight_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD718711AB500ADD1B7 /* spotlight_icon.png */; };
+		F537BFE018711AB500ADD1B7 /* spotlight_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFD818711AB500ADD1B7 /* spotlight_icon@2x.png */; };
+		F537BFE418711AD800ADD1B7 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFE218711AD800ADD1B7 /* LaunchImage.png */; };
+		F537BFE518711AD800ADD1B7 /* LaunchImageStd.png in Resources */ = {isa = PBXBuildFile; fileRef = F537BFE318711AD800ADD1B7 /* LaunchImageStd.png */; };
+		F574A5A6187655B3006D9E5B /* EZR_BandColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F574A5A5187655B3006D9E5B /* EZR_BandColors.m */; };
+		F574A5AA187659F1006D9E5B /* Parallel_circuit.png in Resources */ = {isa = PBXBuildFile; fileRef = F574A5A7187659F1006D9E5B /* Parallel_circuit.png */; };
+		F574A5AB187659F1006D9E5B /* Resistor_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = F574A5A8187659F1006D9E5B /* Resistor_blank.png */; };
+		F574A5AC187659F1006D9E5B /* Series_circuit.png in Resources */ = {isa = PBXBuildFile; fileRef = F574A5A9187659F1006D9E5B /* Series_circuit.png */; };
+		F5DE73DA1878E2050046CDCB /* band1_black.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73B61878E2050046CDCB /* band1_black.png */; };
+		F5DE73DB1878E2050046CDCB /* band1_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73B71878E2050046CDCB /* band1_blue.png */; };
+		F5DE73DC1878E2050046CDCB /* band1_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73B81878E2050046CDCB /* band1_brown.png */; };
+		F5DE73DD1878E2050046CDCB /* band1_green.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73B91878E2050046CDCB /* band1_green.png */; };
+		F5DE73DE1878E2050046CDCB /* band1_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73BA1878E2050046CDCB /* band1_grey.png */; };
+		F5DE73DF1878E2050046CDCB /* band1_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73BB1878E2050046CDCB /* band1_orange.png */; };
+		F5DE73E01878E2050046CDCB /* band1_red.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73BC1878E2050046CDCB /* band1_red.png */; };
+		F5DE73E11878E2050046CDCB /* band1_violet.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73BD1878E2050046CDCB /* band1_violet.png */; };
+		F5DE73E21878E2050046CDCB /* band1_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73BE1878E2050046CDCB /* band1_white.png */; };
+		F5DE73E31878E2050046CDCB /* band1_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73BF1878E2050046CDCB /* band1_yellow.png */; };
+		F5DE73E41878E2050046CDCB /* band2_black.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C11878E2050046CDCB /* band2_black.png */; };
+		F5DE73E51878E2050046CDCB /* band2_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C21878E2050046CDCB /* band2_blue.png */; };
+		F5DE73E61878E2050046CDCB /* band2_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C31878E2050046CDCB /* band2_brown.png */; };
+		F5DE73E71878E2050046CDCB /* band2_green.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C41878E2050046CDCB /* band2_green.png */; };
+		F5DE73E81878E2050046CDCB /* band2_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C51878E2050046CDCB /* band2_grey.png */; };
+		F5DE73E91878E2050046CDCB /* band2_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C61878E2050046CDCB /* band2_orange.png */; };
+		F5DE73EA1878E2050046CDCB /* band2_red.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C71878E2050046CDCB /* band2_red.png */; };
+		F5DE73EB1878E2050046CDCB /* band2_violet.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C81878E2050046CDCB /* band2_violet.png */; };
+		F5DE73EC1878E2050046CDCB /* band2_white.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73C91878E2050046CDCB /* band2_white.png */; };
+		F5DE73ED1878E2050046CDCB /* band2_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73CA1878E2050046CDCB /* band2_yellow.png */; };
+		F5DE73EE1878E2050046CDCB /* band3_black.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73CC1878E2050046CDCB /* band3_black.png */; };
+		F5DE73EF1878E2050046CDCB /* band3_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73CD1878E2050046CDCB /* band3_blue.png */; };
+		F5DE73F01878E2050046CDCB /* band3_brown.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73CE1878E2050046CDCB /* band3_brown.png */; };
+		F5DE73F11878E2050046CDCB /* band3_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73CF1878E2050046CDCB /* band3_gold.png */; };
+		F5DE73F21878E2050046CDCB /* band3_green.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D01878E2050046CDCB /* band3_green.png */; };
+		F5DE73F31878E2050046CDCB /* band3_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D11878E2050046CDCB /* band3_orange.png */; };
+		F5DE73F41878E2050046CDCB /* band3_red.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D21878E2050046CDCB /* band3_red.png */; };
+		F5DE73F51878E2050046CDCB /* band3_silver.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D31878E2050046CDCB /* band3_silver.png */; };
+		F5DE73F61878E2050046CDCB /* band3_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D41878E2050046CDCB /* band3_yellow.png */; };
+		F5DE73F71878E2050046CDCB /* band4_black.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D61878E2050046CDCB /* band4_black.png */; };
+		F5DE73F81878E2050046CDCB /* band4_gold.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D71878E2050046CDCB /* band4_gold.png */; };
+		F5DE73F91878E2050046CDCB /* band4_red.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D81878E2050046CDCB /* band4_red.png */; };
+		F5DE73FA1878E2050046CDCB /* band4_silver.png in Resources */ = {isa = PBXBuildFile; fileRef = F5DE73D91878E2050046CDCB /* band4_silver.png */; };
+		F5DE73FD1878E40A0046CDCB /* EZR_BandImages.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DE73FC1878E40A0046CDCB /* EZR_BandImages.m */; };
+		F5E6E4441876396B00062D97 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = F5E6E4421876396B00062D97 /* Background.png */; };
+		F5E6E4481876469500062D97 /* EZR_InterfaceColors.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E6E4471876469500062D97 /* EZR_InterfaceColors.m */; };
+		F5E6E44B18764B7B00062D97 /* EZR_R2CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E6E44A18764B7B00062D97 /* EZR_R2CViewController.m */; };
+		F5E6E44E18764B8400062D97 /* EZR_C2RViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E6E44D18764B8400062D97 /* EZR_C2RViewController.m */; };
+		F5E6E45118764B8D00062D97 /* EZR_EQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E6E45018764B8D00062D97 /* EZR_EQRViewController.m */; };
+		F5E82E3818769F7000A23BAA /* EZR_R2CUnitsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E82E3718769F7000A23BAA /* EZR_R2CUnitsTableViewController.m */; };
+		F5E82E3B18773CB800A23BAA /* EZR_ToleranceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E82E3A18773CB800A23BAA /* EZR_ToleranceTableViewController.m */; };
+		F5E82E481877DD7500A23BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E82E471877DD7500A23BAA /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F537BFB618710FE100ADD1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F537BF8818710FE000ADD1B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F537BF8F18710FE000ADD1B7;
+			remoteInfo = "EZ-Resistor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5206782187B2E1500672BE7 /* EZR_Color1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_Color1TableViewController.h; sourceTree = "<group>"; };
+		F5206783187B2E1500672BE7 /* EZR_Color1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_Color1TableViewController.m; sourceTree = "<group>"; };
+		F5206785187B2E2400672BE7 /* EZR_Color2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_Color2TableViewController.h; sourceTree = "<group>"; };
+		F5206786187B2E2400672BE7 /* EZR_Color2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_Color2TableViewController.m; sourceTree = "<group>"; };
+		F5206788187B2E2F00672BE7 /* EZR_Color3TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_Color3TableViewController.h; sourceTree = "<group>"; };
+		F5206789187B2E2F00672BE7 /* EZR_Color3TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_Color3TableViewController.m; sourceTree = "<group>"; };
+		F520678B187B2E3B00672BE7 /* EZR_Color4TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_Color4TableViewController.h; sourceTree = "<group>"; };
+		F520678C187B2E3B00672BE7 /* EZR_Color4TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_Color4TableViewController.m; sourceTree = "<group>"; };
+		F5206793187B3A3E00672BE7 /* EZR_ColorBandCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZR_ColorBandCell.h; path = ../EZR_ColorBandCell.h; sourceTree = "<group>"; };
+		F5206794187B3A3E00672BE7 /* EZR_ColorBandCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZR_ColorBandCell.m; path = ../EZR_ColorBandCell.m; sourceTree = "<group>"; };
+		F5206796187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_EQRUnitSelect1TableViewController.h; sourceTree = "<group>"; };
+		F5206797187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_EQRUnitSelect1TableViewController.m; sourceTree = "<group>"; };
+		F5206799187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_EQRUnitSelect2ViewController.h; sourceTree = "<group>"; };
+		F520679A187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_EQRUnitSelect2ViewController.m; sourceTree = "<group>"; };
+		F537BF9018710FE100ADD1B7 /* EZ-Resistor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ-Resistor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F537BF9318710FE100ADD1B7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F537BF9518710FE100ADD1B7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F537BF9718710FE100ADD1B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F537BF9B18710FE100ADD1B7 /* EZ-Resistor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZ-Resistor-Info.plist"; sourceTree = "<group>"; };
+		F537BF9D18710FE100ADD1B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F537BF9F18710FE100ADD1B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F537BFA118710FE100ADD1B7 /* EZ-Resistor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZ-Resistor-Prefix.pch"; sourceTree = "<group>"; };
+		F537BFA218710FE100ADD1B7 /* EZR_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZR_AppDelegate.h; sourceTree = "<group>"; };
+		F537BFA318710FE100ADD1B7 /* EZR_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZR_AppDelegate.m; sourceTree = "<group>"; };
+		F537BFB118710FE100ADD1B7 /* EZ-ResistorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ-ResistorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F537BFB218710FE100ADD1B7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F537BFBA18710FE100ADD1B7 /* EZ-ResistorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZ-ResistorTests-Info.plist"; sourceTree = "<group>"; };
+		F537BFBC18710FE100ADD1B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F537BFBE18710FE100ADD1B7 /* EZ_ResistorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZ_ResistorTests.m; sourceTree = "<group>"; };
+		F537BFC81871133A00ADD1B7 /* EZR_MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZR_MainViewController.h; path = ../EZR_MainViewController.h; sourceTree = "<group>"; };
+		F537BFC91871133A00ADD1B7 /* EZR_MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZR_MainViewController.m; path = ../EZR_MainViewController.m; sourceTree = "<group>"; };
+		F537BFCE18711A4800ADD1B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
+		F537BFD118711AB500ADD1B7 /* pad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pad_icon.png; sourceTree = "<group>"; };
+		F537BFD218711AB500ADD1B7 /* pad_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad_icon@2x.png"; sourceTree = "<group>"; };
+		F537BFD318711AB500ADD1B7 /* phone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_icon.png; sourceTree = "<group>"; };
+		F537BFD418711AB500ADD1B7 /* phone_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_icon@2x.png"; sourceTree = "<group>"; };
+		F537BFD518711AB500ADD1B7 /* settings_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_icon.png; sourceTree = "<group>"; };
+		F537BFD618711AB500ADD1B7 /* settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_icon@2x.png"; sourceTree = "<group>"; };
+		F537BFD718711AB500ADD1B7 /* spotlight_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotlight_icon.png; sourceTree = "<group>"; };
+		F537BFD818711AB500ADD1B7 /* spotlight_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotlight_icon@2x.png"; sourceTree = "<group>"; };
+		F537BFE218711AD800ADD1B7 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		F537BFE318711AD800ADD1B7 /* LaunchImageStd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImageStd.png; sourceTree = "<group>"; };
+		F574A5A4187655B3006D9E5B /* EZR_BandColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_BandColors.h; sourceTree = "<group>"; };
+		F574A5A5187655B3006D9E5B /* EZR_BandColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_BandColors.m; sourceTree = "<group>"; };
+		F574A5A7187659F1006D9E5B /* Parallel_circuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Parallel_circuit.png; sourceTree = "<group>"; };
+		F574A5A8187659F1006D9E5B /* Resistor_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Resistor_blank.png; sourceTree = "<group>"; };
+		F574A5A9187659F1006D9E5B /* Series_circuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Series_circuit.png; sourceTree = "<group>"; };
+		F5DE73B61878E2050046CDCB /* band1_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_black.png; sourceTree = "<group>"; };
+		F5DE73B71878E2050046CDCB /* band1_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_blue.png; sourceTree = "<group>"; };
+		F5DE73B81878E2050046CDCB /* band1_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_brown.png; sourceTree = "<group>"; };
+		F5DE73B91878E2050046CDCB /* band1_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_green.png; sourceTree = "<group>"; };
+		F5DE73BA1878E2050046CDCB /* band1_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_grey.png; sourceTree = "<group>"; };
+		F5DE73BB1878E2050046CDCB /* band1_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_orange.png; sourceTree = "<group>"; };
+		F5DE73BC1878E2050046CDCB /* band1_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_red.png; sourceTree = "<group>"; };
+		F5DE73BD1878E2050046CDCB /* band1_violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_violet.png; sourceTree = "<group>"; };
+		F5DE73BE1878E2050046CDCB /* band1_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_white.png; sourceTree = "<group>"; };
+		F5DE73BF1878E2050046CDCB /* band1_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band1_yellow.png; sourceTree = "<group>"; };
+		F5DE73C11878E2050046CDCB /* band2_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_black.png; sourceTree = "<group>"; };
+		F5DE73C21878E2050046CDCB /* band2_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_blue.png; sourceTree = "<group>"; };
+		F5DE73C31878E2050046CDCB /* band2_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_brown.png; sourceTree = "<group>"; };
+		F5DE73C41878E2050046CDCB /* band2_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_green.png; sourceTree = "<group>"; };
+		F5DE73C51878E2050046CDCB /* band2_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_grey.png; sourceTree = "<group>"; };
+		F5DE73C61878E2050046CDCB /* band2_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_orange.png; sourceTree = "<group>"; };
+		F5DE73C71878E2050046CDCB /* band2_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_red.png; sourceTree = "<group>"; };
+		F5DE73C81878E2050046CDCB /* band2_violet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_violet.png; sourceTree = "<group>"; };
+		F5DE73C91878E2050046CDCB /* band2_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_white.png; sourceTree = "<group>"; };
+		F5DE73CA1878E2050046CDCB /* band2_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band2_yellow.png; sourceTree = "<group>"; };
+		F5DE73CC1878E2050046CDCB /* band3_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_black.png; sourceTree = "<group>"; };
+		F5DE73CD1878E2050046CDCB /* band3_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_blue.png; sourceTree = "<group>"; };
+		F5DE73CE1878E2050046CDCB /* band3_brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_brown.png; sourceTree = "<group>"; };
+		F5DE73CF1878E2050046CDCB /* band3_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_gold.png; sourceTree = "<group>"; };
+		F5DE73D01878E2050046CDCB /* band3_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_green.png; sourceTree = "<group>"; };
+		F5DE73D11878E2050046CDCB /* band3_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_orange.png; sourceTree = "<group>"; };
+		F5DE73D21878E2050046CDCB /* band3_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_red.png; sourceTree = "<group>"; };
+		F5DE73D31878E2050046CDCB /* band3_silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_silver.png; sourceTree = "<group>"; };
+		F5DE73D41878E2050046CDCB /* band3_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band3_yellow.png; sourceTree = "<group>"; };
+		F5DE73D61878E2050046CDCB /* band4_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band4_black.png; sourceTree = "<group>"; };
+		F5DE73D71878E2050046CDCB /* band4_gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band4_gold.png; sourceTree = "<group>"; };
+		F5DE73D81878E2050046CDCB /* band4_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band4_red.png; sourceTree = "<group>"; };
+		F5DE73D91878E2050046CDCB /* band4_silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = band4_silver.png; sourceTree = "<group>"; };
+		F5DE73FB1878E40A0046CDCB /* EZR_BandImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_BandImages.h; sourceTree = "<group>"; };
+		F5DE73FC1878E40A0046CDCB /* EZR_BandImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_BandImages.m; sourceTree = "<group>"; };
+		F5E6E4421876396B00062D97 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		F5E6E4461876469500062D97 /* EZR_InterfaceColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_InterfaceColors.h; sourceTree = "<group>"; };
+		F5E6E4471876469500062D97 /* EZR_InterfaceColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_InterfaceColors.m; sourceTree = "<group>"; };
+		F5E6E44918764B7B00062D97 /* EZR_R2CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_R2CViewController.h; sourceTree = "<group>"; };
+		F5E6E44A18764B7B00062D97 /* EZR_R2CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_R2CViewController.m; sourceTree = "<group>"; };
+		F5E6E44C18764B8400062D97 /* EZR_C2RViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_C2RViewController.h; sourceTree = "<group>"; };
+		F5E6E44D18764B8400062D97 /* EZR_C2RViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_C2RViewController.m; sourceTree = "<group>"; };
+		F5E6E44F18764B8D00062D97 /* EZR_EQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_EQRViewController.h; sourceTree = "<group>"; };
+		F5E6E45018764B8D00062D97 /* EZR_EQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_EQRViewController.m; sourceTree = "<group>"; };
+		F5E82E3618769F7000A23BAA /* EZR_R2CUnitsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EZR_R2CUnitsTableViewController.h; path = ../EZR_R2CUnitsTableViewController.h; sourceTree = "<group>"; };
+		F5E82E3718769F7000A23BAA /* EZR_R2CUnitsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EZR_R2CUnitsTableViewController.m; path = ../EZR_R2CUnitsTableViewController.m; sourceTree = "<group>"; };
+		F5E82E3918773CB800A23BAA /* EZR_ToleranceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZR_ToleranceTableViewController.h; sourceTree = "<group>"; };
+		F5E82E3A18773CB800A23BAA /* EZR_ToleranceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZR_ToleranceTableViewController.m; sourceTree = "<group>"; };
+		F5E82E471877DD7500A23BAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F537BF8D18710FE000ADD1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F537BF9618710FE100ADD1B7 /* CoreGraphics.framework in Frameworks */,
+				F537BF9818710FE100ADD1B7 /* UIKit.framework in Frameworks */,
+				F537BF9418710FE100ADD1B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F537BFAE18710FE100ADD1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F537BFB318710FE100ADD1B7 /* XCTest.framework in Frameworks */,
+				F537BFB518710FE100ADD1B7 /* UIKit.framework in Frameworks */,
+				F537BFB418710FE100ADD1B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F537BF8718710FE000ADD1B7 = {
+			isa = PBXGroup;
+			children = (
+				F537BF9918710FE100ADD1B7 /* EZ-Resistor */,
+				F537BFB818710FE100ADD1B7 /* EZ-ResistorTests */,
+				F537BF9218710FE100ADD1B7 /* Frameworks */,
+				F537BF9118710FE100ADD1B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F537BF9118710FE100ADD1B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F537BF9018710FE100ADD1B7 /* EZ-Resistor.app */,
+				F537BFB118710FE100ADD1B7 /* EZ-ResistorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F537BF9218710FE100ADD1B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F537BF9318710FE100ADD1B7 /* Foundation.framework */,
+				F537BF9518710FE100ADD1B7 /* CoreGraphics.framework */,
+				F537BF9718710FE100ADD1B7 /* UIKit.framework */,
+				F537BFB218710FE100ADD1B7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F537BF9918710FE100ADD1B7 /* EZ-Resistor */ = {
+			isa = PBXGroup;
+			children = (
+				F537BFA218710FE100ADD1B7 /* EZR_AppDelegate.h */,
+				F537BFA318710FE100ADD1B7 /* EZR_AppDelegate.m */,
+				F537BFCE18711A4800ADD1B7 /* Images.xcassets */,
+				F5E82E471877DD7500A23BAA /* Main.storyboard */,
+				F5E6E4411876386C00062D97 /* Images */,
+				F574A5B118766D0E006D9E5B /* Color Palates */,
+				F5E82E351876950500A23BAA /* Menu */,
+				F5E82E32187694E400A23BAA /* R2C */,
+				F5E82E33187694EE00A23BAA /* C2R */,
+				F5E82E34187694F500A23BAA /* EQR */,
+				F537BFE118711AC400ADD1B7 /* Launch Images */,
+				F537BFD018711A7800ADD1B7 /* Icons */,
+				F537BF9A18710FE100ADD1B7 /* Supporting Files */,
+			);
+			path = "EZ-Resistor";
+			sourceTree = "<group>";
+		};
+		F537BF9A18710FE100ADD1B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F537BF9B18710FE100ADD1B7 /* EZ-Resistor-Info.plist */,
+				F537BF9C18710FE100ADD1B7 /* InfoPlist.strings */,
+				F537BF9F18710FE100ADD1B7 /* main.m */,
+				F537BFA118710FE100ADD1B7 /* EZ-Resistor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F537BFB818710FE100ADD1B7 /* EZ-ResistorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F537BFBE18710FE100ADD1B7 /* EZ_ResistorTests.m */,
+				F537BFB918710FE100ADD1B7 /* Supporting Files */,
+			);
+			path = "EZ-ResistorTests";
+			sourceTree = "<group>";
+		};
+		F537BFB918710FE100ADD1B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F537BFBA18710FE100ADD1B7 /* EZ-ResistorTests-Info.plist */,
+				F537BFBB18710FE100ADD1B7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F537BFD018711A7800ADD1B7 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F537BFD118711AB500ADD1B7 /* pad_icon.png */,
+				F537BFD218711AB500ADD1B7 /* pad_icon@2x.png */,
+				F537BFD318711AB500ADD1B7 /* phone_icon.png */,
+				F537BFD418711AB500ADD1B7 /* phone_icon@2x.png */,
+				F537BFD518711AB500ADD1B7 /* settings_icon.png */,
+				F537BFD618711AB500ADD1B7 /* settings_icon@2x.png */,
+				F537BFD718711AB500ADD1B7 /* spotlight_icon.png */,
+				F537BFD818711AB500ADD1B7 /* spotlight_icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		F537BFE118711AC400ADD1B7 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				F537BFE218711AD800ADD1B7 /* LaunchImage.png */,
+				F537BFE318711AD800ADD1B7 /* LaunchImageStd.png */,
+			);
+			name = "Launch Images";
+			sourceTree = "<group>";
+		};
+		F574A5B118766D0E006D9E5B /* Color Palates */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6E4461876469500062D97 /* EZR_InterfaceColors.h */,
+				F5E6E4471876469500062D97 /* EZR_InterfaceColors.m */,
+				F574A5A4187655B3006D9E5B /* EZR_BandColors.h */,
+				F574A5A5187655B3006D9E5B /* EZR_BandColors.m */,
+			);
+			name = "Color Palates";
+			sourceTree = "<group>";
+		};
+		F5DE73B51878E2050046CDCB /* Band 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE73B61878E2050046CDCB /* band1_black.png */,
+				F5DE73B71878E2050046CDCB /* band1_blue.png */,
+				F5DE73B81878E2050046CDCB /* band1_brown.png */,
+				F5DE73B91878E2050046CDCB /* band1_green.png */,
+				F5DE73BA1878E2050046CDCB /* band1_grey.png */,
+				F5DE73BB1878E2050046CDCB /* band1_orange.png */,
+				F5DE73BC1878E2050046CDCB /* band1_red.png */,
+				F5DE73BD1878E2050046CDCB /* band1_violet.png */,
+				F5DE73BE1878E2050046CDCB /* band1_white.png */,
+				F5DE73BF1878E2050046CDCB /* band1_yellow.png */,
+			);
+			path = "Band 1";
+			sourceTree = "<group>";
+		};
+		F5DE73C01878E2050046CDCB /* Band 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE73C11878E2050046CDCB /* band2_black.png */,
+				F5DE73C21878E2050046CDCB /* band2_blue.png */,
+				F5DE73C31878E2050046CDCB /* band2_brown.png */,
+				F5DE73C41878E2050046CDCB /* band2_green.png */,
+				F5DE73C51878E2050046CDCB /* band2_grey.png */,
+				F5DE73C61878E2050046CDCB /* band2_orange.png */,
+				F5DE73C71878E2050046CDCB /* band2_red.png */,
+				F5DE73C81878E2050046CDCB /* band2_violet.png */,
+				F5DE73C91878E2050046CDCB /* band2_white.png */,
+				F5DE73CA1878E2050046CDCB /* band2_yellow.png */,
+			);
+			path = "Band 2";
+			sourceTree = "<group>";
+		};
+		F5DE73CB1878E2050046CDCB /* Band 3 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE73CC1878E2050046CDCB /* band3_black.png */,
+				F5DE73CD1878E2050046CDCB /* band3_blue.png */,
+				F5DE73CE1878E2050046CDCB /* band3_brown.png */,
+				F5DE73CF1878E2050046CDCB /* band3_gold.png */,
+				F5DE73D01878E2050046CDCB /* band3_green.png */,
+				F5DE73D11878E2050046CDCB /* band3_orange.png */,
+				F5DE73D21878E2050046CDCB /* band3_red.png */,
+				F5DE73D31878E2050046CDCB /* band3_silver.png */,
+				F5DE73D41878E2050046CDCB /* band3_yellow.png */,
+			);
+			path = "Band 3";
+			sourceTree = "<group>";
+		};
+		F5DE73D51878E2050046CDCB /* Band 4 */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE73D61878E2050046CDCB /* band4_black.png */,
+				F5DE73D71878E2050046CDCB /* band4_gold.png */,
+				F5DE73D81878E2050046CDCB /* band4_red.png */,
+				F5DE73D91878E2050046CDCB /* band4_silver.png */,
+			);
+			path = "Band 4";
+			sourceTree = "<group>";
+		};
+		F5E6E4411876386C00062D97 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5DE73B51878E2050046CDCB /* Band 1 */,
+				F5DE73C01878E2050046CDCB /* Band 2 */,
+				F5DE73CB1878E2050046CDCB /* Band 3 */,
+				F5DE73D51878E2050046CDCB /* Band 4 */,
+				F574A5A7187659F1006D9E5B /* Parallel_circuit.png */,
+				F574A5A8187659F1006D9E5B /* Resistor_blank.png */,
+				F574A5A9187659F1006D9E5B /* Series_circuit.png */,
+				F5E6E4421876396B00062D97 /* Background.png */,
+				F5DE73FB1878E40A0046CDCB /* EZR_BandImages.h */,
+				F5DE73FC1878E40A0046CDCB /* EZR_BandImages.m */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F5E82E32187694E400A23BAA /* R2C */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6E44918764B7B00062D97 /* EZR_R2CViewController.h */,
+				F5E6E44A18764B7B00062D97 /* EZR_R2CViewController.m */,
+				F5E82E3618769F7000A23BAA /* EZR_R2CUnitsTableViewController.h */,
+				F5E82E3718769F7000A23BAA /* EZR_R2CUnitsTableViewController.m */,
+				F5E82E3918773CB800A23BAA /* EZR_ToleranceTableViewController.h */,
+				F5E82E3A18773CB800A23BAA /* EZR_ToleranceTableViewController.m */,
+			);
+			name = R2C;
+			sourceTree = "<group>";
+		};
+		F5E82E33187694EE00A23BAA /* C2R */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6E44C18764B8400062D97 /* EZR_C2RViewController.h */,
+				F5E6E44D18764B8400062D97 /* EZR_C2RViewController.m */,
+				F5206782187B2E1500672BE7 /* EZR_Color1TableViewController.h */,
+				F5206783187B2E1500672BE7 /* EZR_Color1TableViewController.m */,
+				F5206785187B2E2400672BE7 /* EZR_Color2TableViewController.h */,
+				F5206786187B2E2400672BE7 /* EZR_Color2TableViewController.m */,
+				F5206788187B2E2F00672BE7 /* EZR_Color3TableViewController.h */,
+				F5206789187B2E2F00672BE7 /* EZR_Color3TableViewController.m */,
+				F520678B187B2E3B00672BE7 /* EZR_Color4TableViewController.h */,
+				F520678C187B2E3B00672BE7 /* EZR_Color4TableViewController.m */,
+				F5206793187B3A3E00672BE7 /* EZR_ColorBandCell.h */,
+				F5206794187B3A3E00672BE7 /* EZR_ColorBandCell.m */,
+			);
+			name = C2R;
+			sourceTree = "<group>";
+		};
+		F5E82E34187694F500A23BAA /* EQR */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6E44F18764B8D00062D97 /* EZR_EQRViewController.h */,
+				F5E6E45018764B8D00062D97 /* EZR_EQRViewController.m */,
+				F5206796187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.h */,
+				F5206797187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.m */,
+				F5206799187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.h */,
+				F520679A187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.m */,
+			);
+			name = EQR;
+			sourceTree = "<group>";
+		};
+		F5E82E351876950500A23BAA /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				F537BFC81871133A00ADD1B7 /* EZR_MainViewController.h */,
+				F537BFC91871133A00ADD1B7 /* EZR_MainViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F537BF8F18710FE000ADD1B7 /* EZ-Resistor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F537BFC218710FE100ADD1B7 /* Build configuration list for PBXNativeTarget "EZ-Resistor" */;
+			buildPhases = (
+				F537BF8C18710FE000ADD1B7 /* Sources */,
+				F537BF8D18710FE000ADD1B7 /* Frameworks */,
+				F537BF8E18710FE000ADD1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZ-Resistor";
+			productName = "EZ-Resistor";
+			productReference = F537BF9018710FE100ADD1B7 /* EZ-Resistor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F537BFB018710FE100ADD1B7 /* EZ-ResistorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F537BFC518710FE100ADD1B7 /* Build configuration list for PBXNativeTarget "EZ-ResistorTests" */;
+			buildPhases = (
+				F537BFAD18710FE100ADD1B7 /* Sources */,
+				F537BFAE18710FE100ADD1B7 /* Frameworks */,
+				F537BFAF18710FE100ADD1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F537BFB718710FE100ADD1B7 /* PBXTargetDependency */,
+			);
+			name = "EZ-ResistorTests";
+			productName = "EZ-ResistorTests";
+			productReference = F537BFB118710FE100ADD1B7 /* EZ-ResistorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F537BF8818710FE000ADD1B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EZR_;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stack Underflow";
+				TargetAttributes = {
+					F537BF8F18710FE000ADD1B7 = {
+						DevelopmentTeam = L93KS885DR;
+					};
+					F537BFB018710FE100ADD1B7 = {
+						TestTargetID = F537BF8F18710FE000ADD1B7;
+					};
+				};
+			};
+			buildConfigurationList = F537BF8B18710FE000ADD1B7 /* Build configuration list for PBXProject "EZ-Resistor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F537BF8718710FE000ADD1B7;
+			productRefGroup = F537BF9118710FE100ADD1B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F537BF8F18710FE000ADD1B7 /* EZ-Resistor */,
+				F537BFB018710FE100ADD1B7 /* EZ-ResistorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F537BF8E18710FE000ADD1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E82E481877DD7500A23BAA /* Main.storyboard in Resources */,
+				F5DE73E31878E2050046CDCB /* band1_yellow.png in Resources */,
+				F5DE73E71878E2050046CDCB /* band2_green.png in Resources */,
+				F537BFE418711AD800ADD1B7 /* LaunchImage.png in Resources */,
+				F5DE73DB1878E2050046CDCB /* band1_blue.png in Resources */,
+				F5DE73EA1878E2050046CDCB /* band2_red.png in Resources */,
+				F537BFE018711AB500ADD1B7 /* spotlight_icon@2x.png in Resources */,
+				F5DE73E51878E2050046CDCB /* band2_blue.png in Resources */,
+				F5DE73F61878E2050046CDCB /* band3_yellow.png in Resources */,
+				F5DE73E41878E2050046CDCB /* band2_black.png in Resources */,
+				F5DE73F01878E2050046CDCB /* band3_brown.png in Resources */,
+				F537BFDE18711AB500ADD1B7 /* settings_icon@2x.png in Resources */,
+				F5DE73DA1878E2050046CDCB /* band1_black.png in Resources */,
+				F537BFDC18711AB500ADD1B7 /* phone_icon@2x.png in Resources */,
+				F5DE73EB1878E2050046CDCB /* band2_violet.png in Resources */,
+				F5DE73FA1878E2050046CDCB /* band4_silver.png in Resources */,
+				F537BFDB18711AB500ADD1B7 /* phone_icon.png in Resources */,
+				F537BF9E18710FE100ADD1B7 /* InfoPlist.strings in Resources */,
+				F5DE73E81878E2050046CDCB /* band2_grey.png in Resources */,
+				F574A5AC187659F1006D9E5B /* Series_circuit.png in Resources */,
+				F574A5AA187659F1006D9E5B /* Parallel_circuit.png in Resources */,
+				F5DE73E01878E2050046CDCB /* band1_red.png in Resources */,
+				F5DE73ED1878E2050046CDCB /* band2_yellow.png in Resources */,
+				F574A5AB187659F1006D9E5B /* Resistor_blank.png in Resources */,
+				F5DE73EE1878E2050046CDCB /* band3_black.png in Resources */,
+				F537BFE518711AD800ADD1B7 /* LaunchImageStd.png in Resources */,
+				F537BFDA18711AB500ADD1B7 /* pad_icon@2x.png in Resources */,
+				F5DE73F71878E2050046CDCB /* band4_black.png in Resources */,
+				F5DE73DC1878E2050046CDCB /* band1_brown.png in Resources */,
+				F5DE73E21878E2050046CDCB /* band1_white.png in Resources */,
+				F5DE73DE1878E2050046CDCB /* band1_grey.png in Resources */,
+				F537BFDF18711AB500ADD1B7 /* spotlight_icon.png in Resources */,
+				F5DE73F91878E2050046CDCB /* band4_red.png in Resources */,
+				F5DE73E11878E2050046CDCB /* band1_violet.png in Resources */,
+				F537BFDD18711AB500ADD1B7 /* settings_icon.png in Resources */,
+				F5DE73F81878E2050046CDCB /* band4_gold.png in Resources */,
+				F537BFCF18711A4800ADD1B7 /* Images.xcassets in Resources */,
+				F5DE73F51878E2050046CDCB /* band3_silver.png in Resources */,
+				F5DE73F41878E2050046CDCB /* band3_red.png in Resources */,
+				F5DE73DF1878E2050046CDCB /* band1_orange.png in Resources */,
+				F537BFD918711AB500ADD1B7 /* pad_icon.png in Resources */,
+				F5DE73EF1878E2050046CDCB /* band3_blue.png in Resources */,
+				F5DE73EC1878E2050046CDCB /* band2_white.png in Resources */,
+				F5DE73F21878E2050046CDCB /* band3_green.png in Resources */,
+				F5DE73DD1878E2050046CDCB /* band1_green.png in Resources */,
+				F5DE73E91878E2050046CDCB /* band2_orange.png in Resources */,
+				F5DE73E61878E2050046CDCB /* band2_brown.png in Resources */,
+				F5E6E4441876396B00062D97 /* Background.png in Resources */,
+				F5DE73F31878E2050046CDCB /* band3_orange.png in Resources */,
+				F5DE73F11878E2050046CDCB /* band3_gold.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F537BFAF18710FE100ADD1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F537BFBD18710FE100ADD1B7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F537BF8C18710FE000ADD1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5206798187BB67300672BE7 /* EZR_EQRUnitSelect1TableViewController.m in Sources */,
+				F5E6E44E18764B8400062D97 /* EZR_C2RViewController.m in Sources */,
+				F5E82E3B18773CB800A23BAA /* EZR_ToleranceTableViewController.m in Sources */,
+				F5206787187B2E2400672BE7 /* EZR_Color2TableViewController.m in Sources */,
+				F520679B187BB68300672BE7 /* EZR_EQRUnitSelect2ViewController.m in Sources */,
+				F5E6E45118764B8D00062D97 /* EZR_EQRViewController.m in Sources */,
+				F520678D187B2E3B00672BE7 /* EZR_Color4TableViewController.m in Sources */,
+				F5E82E3818769F7000A23BAA /* EZR_R2CUnitsTableViewController.m in Sources */,
+				F5206795187B3A3E00672BE7 /* EZR_ColorBandCell.m in Sources */,
+				F574A5A6187655B3006D9E5B /* EZR_BandColors.m in Sources */,
+				F5206784187B2E1500672BE7 /* EZR_Color1TableViewController.m in Sources */,
+				F537BFCB1871133A00ADD1B7 /* EZR_MainViewController.m in Sources */,
+				F5DE73FD1878E40A0046CDCB /* EZR_BandImages.m in Sources */,
+				F5E6E44B18764B7B00062D97 /* EZR_R2CViewController.m in Sources */,
+				F520678A187B2E2F00672BE7 /* EZR_Color3TableViewController.m in Sources */,
+				F537BFA418710FE100ADD1B7 /* EZR_AppDelegate.m in Sources */,
+				F537BFA018710FE100ADD1B7 /* main.m in Sources */,
+				F5E6E4481876469500062D97 /* EZR_InterfaceColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F537BFAD18710FE100ADD1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F537BFBF18710FE100ADD1B7 /* EZ_ResistorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F537BFB718710FE100ADD1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F537BF8F18710FE000ADD1B7 /* EZ-Resistor */;
+			targetProxy = F537BFB618710FE100ADD1B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F537BF9C18710FE100ADD1B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F537BF9D18710FE100ADD1B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F537BFBB18710FE100ADD1B7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F537BFBC18710FE100ADD1B7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F537BFC018710FE100ADD1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F537BFC118710FE100ADD1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F537BFC318710FE100ADD1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZ-Resistor/EZ-Resistor-Prefix.pch";
+				INFOPLIST_FILE = "EZ-Resistor/EZ-Resistor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F537BFC418710FE100ADD1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZ-Resistor/EZ-Resistor-Prefix.pch";
+				INFOPLIST_FILE = "EZ-Resistor/EZ-Resistor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F537BFC618710FE100ADD1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EZ-Resistor.app/EZ-Resistor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZ-Resistor/EZ-Resistor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EZ-ResistorTests/EZ-ResistorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F537BFC718710FE100ADD1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EZ-Resistor.app/EZ-Resistor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZ-Resistor/EZ-Resistor-Prefix.pch";
+				INFOPLIST_FILE = "EZ-ResistorTests/EZ-ResistorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F537BF8B18710FE000ADD1B7 /* Build configuration list for PBXProject "EZ-Resistor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F537BFC018710FE100ADD1B7 /* Debug */,
+				F537BFC118710FE100ADD1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F537BFC218710FE100ADD1B7 /* Build configuration list for PBXNativeTarget "EZ-Resistor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F537BFC318710FE100ADD1B7 /* Debug */,
+				F537BFC418710FE100ADD1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F537BFC518710FE100ADD1B7 /* Build configuration list for PBXNativeTarget "EZ-ResistorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F537BFC618710FE100ADD1B7 /* Debug */,
+				F537BFC718710FE100ADD1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F537BF8818710FE000ADD1B7 /* Project object */;
+}
